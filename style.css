@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: white;
+    padding: 1rem;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#inicio {
+    width: 8rem;
+    margin-right: auto;
+
+}
+
+.menu a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+#inicio2 p {
+    text-align: center;
+    font: 1.5rem;
+}
+
+#quemsomos h2 {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.primeirocontainer {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+#img1,
+#img2 {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+#img2 {
+    width: 10rem;
+}
+
+#img1 {
+    width: 16rem;
+}
+
+.perfil {
+    flex-basis: 50%;
+    flex-shrink: 1;
+    flex: 1 1 150px;
+    background-color: lightblue;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.perfil p {
+    text-align: center;
+    padding: 0.7rem;
+}
+
+.perfil h3 {
+    text-align: center;
+}
+
+#atuacao h2 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+#p-atuacao {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.container-blocos {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bloco {
+    flex: 1 1 300px;
+    background-color: lightblue;
+    color: #000000;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bloco h3 {
+    color: #000000;
+    margin-top: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.bloco p {
+    font-size: 1em;
+    margin: 3rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    * {
+        flex: 1 1 100%;
+    }
+}
+
+#cabecalho-quemsomos h2 {
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+#cabecalho-quemsomos p {
+
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#imginicio {
+    border-radius: 5px;
+    width: 70%;
+
+}
+
+#boximg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio2 p {
+    font-size: 1rem;
+}
+
+.contato-bloco {
+    margin-left: 2rem;
+    width: 300px;
+    background-color: lightblue;
+    color: #000000;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#botaowpp {
+    margin: 1.5rem;
+    background-color: #ffdc67;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    box-shadow: 0 2px 4px #000000;
+    padding: 0.7rem;
+
+
+}
+
+.contato-bloco h3 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contato-bloco p {
+    text-align: center;
+}
+
+#contato {
+
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contato2 h2 {
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+#contato2 p {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+}
+#links{
+    margin-top: 1.5rem;
+}
+#links a {
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+#maps {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+#maps iframe {
+    width: 100%;
+    height: 100%;
+}
+#container2 p{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    color: white;
+    margin-bottom: 0.7rem;
+
+}
+#container2 a{
+    text-decoration: none;
+    color: white;
+}
