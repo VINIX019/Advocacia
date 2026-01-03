@@ -41,3 +41,9 @@ This project was built using the fundamental technologies for web development:
 
 * **HTML5:** For the structure and content of the page.
 * **CSS3:** For styling and layout, including the use of Flexbox for element organization.
+---
+## 📸 Preview
+<img width="1916" height="956" alt="image" src="https://github.com/user-attachments/assets/73a548c9-a7f4-4f87-9a5b-8cc6684cbdd0" />
+<img width="1920" height="961" alt="image" src="https://github.com/user-attachments/assets/31dbeb1c-7d31-4c0b-969a-715de128cc38" />
+<img width="1915" height="950" alt="image" src="https://github.com/user-attachments/assets/45c8d387-8239-4cae-bc33-cf2fb8d96aae" />
+
